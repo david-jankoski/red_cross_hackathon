@@ -1,0 +1,21 @@
+1. Download and Install QGIS (http://www.qgis.org/en/site/forusers/download.html)
+
+
+2. Open the template 'PH_template.qgis' in QGIS
+
+
+3. You see 2 layers, which are joined together.
+a. one vector layer, which contains the geometry data (the boundaries of all municipalities)
+b. one CSV layer, which contains an example data-column, which is visualized in the map.
+
+
+4. You can upload and join any other csv-file, as long as it contains the same municipality codes as in the 'admin_L3_code' identifier column. Advice: copy the existing csv_template and add more columns to  it. Do so through "Layer >> Add Layer >> Add Delimited Text Layer". Select the CSV-file. Check if the Preview nicely splits your columns, and change the delimiter-options accordingly if not. Select 'No geometry' and you’re good to go.
+
+
+5. To join the csv-file to the geometry-file, double-click the geometry-layer, and go to Joins in the menu on the left. You should already see one join (with the other CSV), but click on the Plus-button at the bottom to add a new one. If you don’t see the join there, you may have double-clicked on a csv-file instead of the geometry layer. Join on "admin_L3_code" in the CSV-file  (or whatever your municipality-code variable is called in your new csv) and "Mun_Code" in the geo-file, and select the variables you want to add. Click OK and  then Apply. You can check the geometry file table by right clicking on the geometry layer and clicking ‘Open Attribute Table’. Make sure your new column is visible there. 
+
+
+6. To select one of your newly added variables to be used for color-coding in the map,  double-click the geometry-layer and now go to 'Style' in the left menu. The uppermost selector should already be set to 'Graduated' and in the column-selector below it, you see the current selected variable. If the joining worked correctly, you should be able to select one of your new variables now. A little below, click 'Classify' to adjust the threshold values to the new data. You can also select more/less classes and choose different ways of dividing (quantiles vs. equal intervals, etc.).
+
+
+7. Click OK to see your new visualizations. Make a printscreen of maps or zoomed in parts of maps to include in your presentation.

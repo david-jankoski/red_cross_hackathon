@@ -1,0 +1,76 @@
+variable Category description
+typhoon_name general "Name of typhoon. The dataset contains 4 typhoons, and for each typhoons all municipalities with damage (at least 1 damaged house)"
+
+admin_L3_code general "Unique code of municipality"
+
+admin_L2_code general "Unique code of province (1 administrative level higher  than municipality)"
+
+admin_L3_name general "Name of municipality"
+
+comp_damage_houses "actual damage" "Houses that are completely damaged"
+
+part_damage_houses "actual damage" "Houses that are partially damaged"
+
+total_damage_houses "actual damage" "Sum of completely+partially damaged houses"
+
+pop_15 exposure "2015 population"
+
+n_households exposure "Number of households in 2010"
+
+pop_density_15 exposure "Population density given 2015 population"
+
+average_speed_mph event-specific "Average of maximum windspeeds reached throughout municipality"
+
+distance_typhoon_km event-specific "Distance to the typhoon path in kilometers"
+
+Rainfallme event-specific "Accumulated rainfall in millimeters"
+
+distance_first_impact event-specific "Distance to the point where typhoon made first impact in meters"
+
+x_pos geographic "Linear transformation of longitude of centroid of municipality"
+
+y_pos geographic "Linear transformation of latitude of centroid of municipality"
+
+mean_elevation_m geographic "Mean elevation throughout municipality"
+
+mean_slope geographic "Mean of slope throughout municipality"
+
+slope_stdev geographic "Standard deviation of slope throughout municipality"
+
+mean_ruggedness geographic "Standard deviation of ruggedness throughout municipality"
+
+ruggedness_stdev geographic "Mean ruggedness throughout municipality"
+
+with_coast geographic "Is this a coastal municipality or not"
+
+coast_length geographic "Length of coast in meters"
+
+perimeter geographic "Perimeter of municipality in meters"
+
+area_km2 geographic "Area of municipality in km2"
+
+poverty_perc socio-economic "Percentage of population living below poverty line"
+
+roof_conc socio-economic "Percentage of households with a roof material concrete"
+
+roof_makeshift socio-economic "Percentage of households with a roof material makeshift"
+
+roof_straw socio-economic "Percentage of households with a roof material straw"
+
+roof_iron socio-economic "Percentage of households with a roof material iron"
+
+roof_half_conc socio-economic "Percentage of households with a roof material half concrete"
+
+roof_wood socio-economic "Percentage of households with a roof material wood"
+
+wall_conc socio-economic "Percentage of households with wall material concrete"
+
+wall_wood socio-economic "Percentage of households with wall material wood"
+
+wall_iron socio-economic "Percentage of households with wall material iron"
+
+wall_makeshift socio-economic "Percentage of households with wall material makeshift"
+
+wall_bamboo socio-economic "Percentage of households with wall material bamboo"
+
+wall_half_wood socio-economic "Percentage of households with wall material half wood"

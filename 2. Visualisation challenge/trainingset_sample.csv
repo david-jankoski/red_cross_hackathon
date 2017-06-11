@@ -1,0 +1,6 @@
+typhoon_name,admin_L3_code,admin_L3_name,pop_15,n_households,partly_damaged_houses_true,completely_damaged_houses_true,total_damaged_houses_true,partly_damaged_houses_pred,completely_damaged_houses_pred,total_damaged_houses_pred
+Melor,PH034920000,PANTABANGAN,29925,6017,1,3,4,81,10,92
+Melor,PH035403000,ARAYAT,133492,24027,3,1,4,515,155,670
+Melor,PH037707000,MARIA AURORA,40734,8674,8,9,17,75,-8,68
+Melor,PH041005000,BATANGAS CITY (Capital),329874,67357,1,4,5,2334,268,2602
+Melor,PH041008000,CALATAGAN,56449,11948,7,1,8,2012,83,2094
